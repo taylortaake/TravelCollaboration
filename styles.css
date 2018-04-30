@@ -1,6 +1,14 @@
-/* Main content */
-body {background-color:#ffffcc;
-position:relative;}
 h1{
   text-align: center;
+}
+.travelplane{
+	padding-left: 10%;
+	padding-right: 10%;
+	background-image: url("plane.jpg");
+	background-image: cover;
+	
+}
+fieldset{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 15px;
 }
