@@ -1,58 +1,6 @@
 /* Main content */
 body {background-color:#ffffcc;
 position:relative;}
-.container {
-  margin:auto;
-  width:75%;
-  background-color:white;
-  padding:5px;
-  border-radius:25px;
-}
-/*Navigation */
-ul{ list-style: none;}
-img{display:none;}
-.clearfix{
-  content:"";
-  display:table;
-  clear:both;
-}
-@media screen and (min-width:770px){
-  nav li {display:inline-block;padding:5px;font-size:1.5em;}
-  img{display:block;max-width:400px;}
-
-
-}
-@media screen and (min-width:1200px){
-    nav li {display:inline-block;padding:5px;font-size:1.5em;}
-    img{display:block; max-width: 400px;}
-    .column1,.column2,.column3{
-      width:30%;
-      float:left;
-      margin-right: 5%;
-    }
-    .column3{
-      margin-right: 0;
-    }
-
-}
-.column-layout {
-  background-color: white;
-  padding:25px 50px;
-  display:flex;
-}
-
-.main-column {
-  flex:1;
-  order: 2;
-
-}
-
-.sidebar-one{
-  flex:1;
-  order:1;
-}
-
-.sidebar-two {
-  flex:1;
-  order:3;
+h1{
+  text-align: center;
 }
