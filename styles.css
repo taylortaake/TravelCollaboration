@@ -4,3 +4,9 @@ position:relative;}
 h1{
   text-align: center;
 }
+.max{
+  max-width:900px;
+  max-height:500px;
+  margin: 0 auto;
+
+}
